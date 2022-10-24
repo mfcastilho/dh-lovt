@@ -232,3 +232,74 @@ main{
 .background-image-card3{
   background-image: url("../img/Rectangle\ 13.png");
 }
+
+
+footer{
+ 
+}
+
+.footer-container{
+  width: 100%;
+  height: 24.3rem;
+  background-color: #333333;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer img{
+  width: 25.2rem;
+  height: 16.3rem;
+  margin-left: 4.8rem;
+}
+
+.footer-infos-box{
+  margin-right: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contact{
+  width: 17.5rem;
+  height: 9.5rem;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-bottom: 0.9rem;
+  margin-left: 17.7rem;
+}
+
+.contact p{
+  margin-bottom: 1rem;
+  line-height: 1.286rem;
+  color: #FFFFFF;
+  text-align: justify;
+
+}
+
+.social-media{
+  width: 9.8rem;
+  margin-left: 17.7rem;
+}
+
+.social-media h3{
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.286rem;
+  margin-bottom: .43rem;
+}
+
+.midia-icons-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.media-icons{
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+}
+
