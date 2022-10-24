@@ -1,1 +1,1 @@
-<h1 aling='center'>DH LOVT</h1>
+<h1 align='center'>DH LOVT</h1>
