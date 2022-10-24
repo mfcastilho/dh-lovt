@@ -1,24 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 
-
+/*reset*/
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+
+/*Definindo na raíz que o font-size referencia será 10px*/
 :root{
   font-size: 10px;
-
 }
 
+/*definindo a fonte padrão do projeto*/
 body{
   font-family: 'Ropa Sans', sans-serif;
 }
 
+
+/*definindo tamhno máximo e centralizando elementos*/
 .container{
   width: 100%;
-  max-width: 1440px;
+
   margin: 0 auto;
 }
 
@@ -26,6 +30,7 @@ body{
 header{
   width: 100%;
   height: 4.9rem;
+  margin: 0 auto;
 
   display: flex;
   justify-content: space-between;
@@ -62,11 +67,21 @@ header{
  cursor: pointer;
 }
 
+
+
+/*definindo as margens direita e esquerda do main*/
 main{
   margin-left:4.4rem;
   margin-right: 4.5rem;
 }
 
+
+
+
+/*COMEÇA A SEÇÃO  DO BANNER*/
+
+
+/*definindo o tamanho e organizando os filhos do banner-box*/
 .banner-box{
   width: 100%;
   display: flex;
@@ -75,29 +90,23 @@ main{
   
 }
 
+/*definindo o tamanho do banner*/
 .banner{
   width: 100%;  
 }
 
+
+/*COMEÇA A SEÇÃO  DOS LOFTS*/
+
+/*BOX RESPONSÁVEL POR AGRUPAR LOFTS*/
 .lofts-box{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; 
+  margin-bottom: 5.7rem;
 }
 
-.new-loft{
-  width: 25.6rem;
-  height: 24.2rem; 
-}
-
-
-.box-price-stamp{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: .9rem 1.3rem 1.2rem 1.2rem ;
-}
-
+/*AGRUPA CARD NEW LOFT*/
 .new-loft {
   width: 25.6rem;
   height: 24.2rem;
@@ -105,15 +114,31 @@ main{
   flex-direction: column;
 }
 
-
-
-.new-loft p{
-  text-align: justify;
-  color: #555555;
-  width: 23.1rem;
-  height: 4.4rem;
-  margin-left: 1.2rem;
+/*AGRUPA CARD SALE LOFT*/
+.sale-loft{
+  width: 25.6rem;
+  height: 24.2rem;
+  display: flex;
+  flex-direction: column;  
 }
+
+/*classe responsável agrupar e organizar preço e selo*/
+.box-price-stamp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: .9rem 1.3rem 1.2rem 1.2rem ;
+}
+
+
+/*classe reponsável por estilizar o preço do loft*/
+.price{
+  font-size: 2.5rem;
+  color: #888888;
+  display: inline-block;
+}
+
+
 
 
 /*Selo - New*/
@@ -147,15 +172,16 @@ main{
   align-items: center;
 }
 
-
-.sale-loft{
-  width: 25.6rem;
-  height: 24.2rem;
-  display: flex;
-  flex-direction: column;
-  
+/*estilização dos parágrafos*/
+.new-loft p{
+  text-align: justify;
+  color: #555555;
+  width: 23.1rem;
+  height: 4.4rem;
+  margin-left: 1.2rem;
 }
 
+/*estilização dos parágrafos*/
 .sale-loft p{
   text-align: justify;
   color: #555555;
@@ -164,10 +190,45 @@ main{
   margin-left: 1.2rem;
 }
 
-.price{
+.style-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5.7rem;
+}
+
+.style-box h2{
   font-size: 2.5rem;
   color: #888888;
-  display: inline-block;
+  margin-bottom: 1.3rem;
+  font-weight: 400;
+}
+
+.style-card{
+
+  width: 60.8rem;
+  height: 8rem;
+
+  background-image: url("../img/Rectangle\ 11.png");
+  color: #FFFFFF;
+  margin-bottom: 1.3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2.5rem;
 }
 
 
+.background-image-card1{
+  background-image: url("../img/Rectangle\ 11.png"); 
+}
+
+.background-image-card2{
+  background-image: url("../img/Rectangle\ 12.png");
+}
+
+.background-image-card3{
+  background-image: url("../img/Rectangle\ 13.png");
+}
